@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 echo -e "\e[031m This is Test color \e[0m"
 arth=$((10+30))
+echo sum value is $arth
 expr=$(wc -l /etc/passwd)
 arr=(111 222 333)
 echo ${arr[1]}
